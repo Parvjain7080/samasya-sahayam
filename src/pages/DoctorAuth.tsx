@@ -22,7 +22,7 @@ const DoctorAuth = () => {
         title: `${type === 'login' ? 'Login' : 'Registration'} Successful`,
         description: `Welcome to Kerala Digital Health Records - Doctor Portal`,
       });
-      navigate('/dashboard');
+      navigate('/dashboard?role=Doctor');
     }, 1000);
   };
 

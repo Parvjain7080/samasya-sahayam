@@ -22,7 +22,7 @@ const LabAuth = () => {
         title: `${type === 'login' ? 'Login' : 'Registration'} Successful`,
         description: `Welcome to Kerala Digital Health Records - Lab Assistant Portal`,
       });
-      navigate('/dashboard');
+      navigate('/dashboard?role=Lab');
     }, 1000);
   };
 

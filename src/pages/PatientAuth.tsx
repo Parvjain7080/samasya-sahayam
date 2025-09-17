@@ -22,7 +22,7 @@ const PatientAuth = () => {
         title: `${type === 'login' ? 'Login' : 'Registration'} Successful`,
         description: `Welcome to Kerala Digital Health Records`,
       });
-      navigate('/dashboard');
+      navigate('/dashboard?role=Patient');
     }, 1000);
   };
 
